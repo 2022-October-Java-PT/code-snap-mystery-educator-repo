@@ -1,7 +1,9 @@
-import models.Video;
+package com.example.demo;
+
+import com.example.demo.models.Video;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import repositories.VideoRepo;
+import com.example.demo.repositories.VideoRepo;
 
 import javax.annotation.Resource;
 @Component
