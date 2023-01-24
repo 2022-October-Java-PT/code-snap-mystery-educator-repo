@@ -1,5 +1,6 @@
 package repositories;
 
+import models.Video;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.Optional;
