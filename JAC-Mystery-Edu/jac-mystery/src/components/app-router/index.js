@@ -13,8 +13,8 @@ const PageSwitch = () =>(
         <Route exact path={'/book'} component={BookPage} />
         <Route exact path={'/art'} component={ArtPage} />
         <Route exact path={'/video'} element={<VideoPage/>} />
-        <Route exact path={'/contact'} component={ContactPage} />
-        <Route exact path={'/about'} component={AboutPage} />
+        <Route exact path={'/contact'} element={<ContactPage/>} />
+        <Route exact path={'/about'} element={<AboutPage/>} />
     </Routes>
 );
 
