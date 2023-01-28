@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import { BrowserRouter } from "react-router-dom";
 import PageSwitch from "./components/app-router";
 import Footer from "./components/footer";
@@ -9,10 +10,11 @@ function App() {
     <BrowserRouter>
         <Header />
     <div className={style.page}>
-        <PageSwitch />
-    </div>
-        <Footer />
-      </BrowserRouter>
+    <PageSwitch />
+        </div>
+        <Footer/>
+    
+     </BrowserRouter>
       
   );
 }

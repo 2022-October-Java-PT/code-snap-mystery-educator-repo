@@ -14,7 +14,7 @@ const PageSwitch = () =>(
         <Route exact path={'/art'} element={<ArtPage/>} />
         <Route exact path={'/video'} element={<VideoPage/>} />
         <Route exact path={'/contact'} element={<ContactPage/>} />
-        <Route exact path={'/about'} component={AboutPage} />
+        <Route exact path={'/about'} element={<AboutPage/>} />
     </Routes>
 );
 
