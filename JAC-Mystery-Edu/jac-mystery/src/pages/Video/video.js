@@ -1,5 +1,6 @@
-import React, {useEffect, useState} from "react";
-import Axios from "axios";
+import React from "react";
+
+import './style.module.scss'
 
 export default class Video extends React.Component {
     constructor(props) {
@@ -33,12 +34,11 @@ export default class Video extends React.Component {
         let link = this.state.link;
 
         return(
-            <div>
+            <div className="container">
                 <h1>Random Art/Crafting Videos for Kids </h1>
                 <h2>Video</h2>
                 <h3 className="text">{title}</h3>
                 <p className="text">{link}</p>
-
                 <button onClick={this.generateVideo}>Click for a Video!</button>
             </div>
         )
