@@ -11,9 +11,9 @@ const PageSwitch = () =>(
     <Routes>
         <Route exact path={'/'} component={HomePage} />
         <Route exact path={'/book'} component={BookPage} />
-        <Route exact path={'/art'} element={<ArtPage/>} />
-        <Route exact path={'/video'} component={VideoPage} />
-        <Route exact path={'/contact'} element={<ContactPage/>} />
+        <Route exact path={'/art'} component={ArtPage} />
+        <Route exact path={'/video'} element={<VideoPage/>} />
+        <Route exact path={'/contact'} component={ContactPage} />
         <Route exact path={'/about'} component={AboutPage} />
     </Routes>
 );

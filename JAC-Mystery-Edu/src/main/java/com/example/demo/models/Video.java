@@ -15,7 +15,6 @@ public class Video {
     private String title;
     private String link;
 
-
     public Long getId() {
         return id;
     }
