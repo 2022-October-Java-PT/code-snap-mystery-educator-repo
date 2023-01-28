@@ -2,7 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 import PageSwitch from "./components/app-router";
 import Footer from "./components/footer";
 import Header from "./components/header";
-import style from './App.css';
+import style from './style.module.scss';
 
 function App() {
   return (
