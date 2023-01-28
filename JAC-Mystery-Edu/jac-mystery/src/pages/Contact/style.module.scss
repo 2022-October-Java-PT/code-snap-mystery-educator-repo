@@ -1,0 +1,31 @@
+.contact{
+    padding: 30px;
+    text-align: center;
+    color:white;
+    background-color: #474e5d;
+    border: 1px solid #474e5d;
+
+
+}
+ .contact-heading{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-right: 2rem;     padding-bottom: 4rem;
+    
+}
+
+.contact-us{
+    color:#287ff9 ;
+    font-size: 2rem;
+    font-weight: 600;
+    position: relative;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+.map-column{
+    flex: 0 0 auto;
+    width: 100%;
+}
