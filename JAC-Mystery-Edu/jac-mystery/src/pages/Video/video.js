@@ -1,6 +1,6 @@
 import React from "react";
 
-import './style.module.scss'
+import style from './style.module.scss';
 
 export default class Video extends React.Component {
     constructor(props) {
@@ -14,15 +14,15 @@ export default class Video extends React.Component {
         this.generateVideo = this.generateVideo.bind(this);
     }
 
-    generateVideo(){
+    generateVideo() {
         fetch("http://localhost:8080/api/video")
-        .then(response => response. json())
-        .then(data => {
-            this.setState({
-                title: data.title,
-                link: data.link
-            });
-        })
+            .then(response => response.json())
+            .then(data => {
+                this.setState({
+                    title: data.title,
+                    link: data.link
+                });
+            })
     }
 
     componentDidMount() {
@@ -33,13 +33,16 @@ export default class Video extends React.Component {
         let title = this.state.title;
         let link = this.state.link;
 
-        return(
-            <div className="container">
-                <h1>Random Art/Crafting Videos for Kids </h1>
+        return (
+            <div className={style.videoPage}>
+                <h1 className={style.videoHeader}>Random Art/Crafting Videos for Kids </h1>
                 <h2>Video</h2>
                 <h3 className="text">{title}</h3>
-                <p className="text">{link}</p>
-                <button onClick={this.generateVideo}>Click for a Video!</button>
+                <p><a href={link}>{link}</a></p>
+                <button className={style.videoBtn} onClick={this.generateVideo}>Click for a Video!</button>
+                <iframe height="764" width="100%" src={link} allowFullScreen >
+                    
+                </iframe>
             </div>
         )
     }
@@ -79,3 +82,4 @@ export default class Video extends React.Component {
 // }
 
 // export default VideoPage;
+
