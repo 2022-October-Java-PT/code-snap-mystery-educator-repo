@@ -1,8 +1,20 @@
+.animation {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.pageContent {
+  position: relative;
+  z-index: 100;
+}
+
 .page {
-  background-color: #ddd;
-  height:auto;
+  // background-color: #ddd;
+  // height:auto;
   margin: 2rem auto;
-  max-width: 1000px;
   padding: 20px;
 
   &h1 {

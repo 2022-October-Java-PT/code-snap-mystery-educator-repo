@@ -22,8 +22,8 @@ const ArtPage = () => {
 
         }
         fetchIds()
-        if(art){
-        setLoading(false);
+        if (art) {
+            setLoading(false);
         }
 
       
