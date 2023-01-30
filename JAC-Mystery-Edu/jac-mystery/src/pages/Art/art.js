@@ -26,17 +26,23 @@ const ArtPage = () => {
         setLoading(false);
         }
 
+      
 
     }, []);
     
+    function refreshPage(){ 
+        window.location.reload(); 
+    }
 
     return (
         loading ? <h2>Loading...</h2> :
             <div>
+                <button onClick={refreshPage }>New Mystery Art</button>
+                <h2>Title:</h2>
                 <h2>{art.title}</h2>
                 <img className={StyleSheet.image} src={art.primaryImageSmall} alt='art' />
+                <h2>Artist:</h2>
                 <h2>{art.artistDisplayName}</h2>
-                <h2>{art.elementDescription}</h2>
             </div>
     );
 }
