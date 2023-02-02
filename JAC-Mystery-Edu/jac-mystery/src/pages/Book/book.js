@@ -19,7 +19,7 @@ const BookPage = () => {
   };
 
   return (
-    <div className={style.header} >
+    <div className={style.bookHeader} >
         
         <div className={style.row1}>
       {book.volumeInfo ? (
@@ -37,7 +37,7 @@ const BookPage = () => {
       </div>
       <div className={style.row2}>
             <h1> A room without book is like<br/> a body without a soul.</h1>
-            <img className={style.img} src={KidImg} alt="kids-image" />
+            <img className={style.imgKids} src={KidImg} alt="kids-image" />
 
         </div>
     </div>
