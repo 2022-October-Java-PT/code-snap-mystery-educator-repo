@@ -9,7 +9,7 @@ import AboutPage from "../../pages/About/about";
 
 const PageSwitch = () =>(
     <Routes>
-        <Route exact path={'/'} component={HomePage} />
+        <Route exact path={'/'} element={<HomePage/>} />
         <Route exact path={'/book'} component={BookPage} />
         <Route exact path={'/art'} element={<ArtPage/>} />
         <Route exact path={'/video'} element={<VideoPage/>} />

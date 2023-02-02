@@ -9,5 +9,46 @@
     cursor: pointer;
     border: none;
     margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+}
 
+.videoBtn:hover {
+    background-color: rgb(201, 140, 28);
+}
+
+.videoBtn:active {
+    background-color: rgb(201, 140, 28);
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
+}
+
+.videoHeader {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    background-color: indigo;
+    border-radius: 25px;
+    border: solid;
+    opacity: .8;
+   
+}
+
+.subTitle {
+    text-align: center;
+    background-color: green;
+    border-radius: 25px;
+    border: solid;
+    opacity: .8;
+    color: black;
+}
+
+.videoText {
+    text-align: center;
+    background-color: orange;
+    border-radius: 25px;
+    border: solid;
+    opacity: .8;
+    
+    
 }
