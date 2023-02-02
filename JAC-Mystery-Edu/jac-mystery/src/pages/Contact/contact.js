@@ -16,8 +16,8 @@ const ContactPage = () => {
                   <i className="fa-solid fa-location-dot"></i>
                             </div>
                             <div className={style.text}>
-                                <h3>Address</h3>
-                                <p>2645 N High St, Columbus,OH,43202</p>
+                                <h2>Address</h2>
+                                <h3>2645 N High St, Columbus,OH,43202</h3>
 
                             </div>
                         </div>
