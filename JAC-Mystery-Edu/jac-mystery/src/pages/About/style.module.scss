@@ -1,9 +1,9 @@
 .img{
+    display: flex;
     height:auto;
     max-width:400px;
-    margin:40px;
-    
-    
+    margin: 2px;
+    padding-left:350px;
 }
 
 
@@ -13,6 +13,8 @@
     color:white;
     background-color: #474e5d;
     border: 1px solid #474e5d;
+    font-size: 35px;
+    opacity: .8;
     
 
 }
@@ -30,8 +32,17 @@
 
 .text{
     text-align: center;
+    padding-left: 350px;
 }
 
 .container1{
     display: flex;
+}
+
+@media only screen and (max-width: 800px){
+    .img{
+        align-items: center;
+        display: flex;
+        flex-direction:column;
+    }
 }

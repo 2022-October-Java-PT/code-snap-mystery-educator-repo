@@ -10,7 +10,7 @@ const AboutPage = () => {
         <>
         <div className={style.about}>
         <h1 className={style.about}>About Us Page </h1>
-        <p className={style.about}>some text about who we are and what we do.</p>
+        <p className={style.about}>We Are Team Code Snap.</p>
         </div>
         <h2 className={style.team}> Our Team</h2>
         

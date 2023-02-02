@@ -35,11 +35,11 @@ export default class Video extends React.Component {
 
         return (
             <div className={style.videoPage}>
-                <h1 className={style.videoHeader}>Random Art/Crafting Videos for Kids </h1>
-                <h2>Video</h2>
-                <h3 className="text">{title}</h3>
-                <p><a href={link}>{link}</a></p>
-                <button className={style.videoBtn} onClick={this.generateVideo}>Click for a Video!</button>
+                <h1 className={style.videoHeader}>Arts and Crafts for Kids </h1>
+                <h2 className={style.subTitle}>Videos</h2>
+                <h3 className={style.videoText}>{title}</h3>
+                {/* <p><a href={link}>{link}</a></p> */}
+                <button className={style.videoBtn} onClick={this.generateVideo}>Generate a Mystery Video!</button>
                 <iframe height="764" width="100%" src={link} allowFullScreen >
                     
                 </iframe>
