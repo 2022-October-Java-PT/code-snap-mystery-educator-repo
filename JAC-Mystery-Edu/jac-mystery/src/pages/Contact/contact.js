@@ -2,7 +2,6 @@ import React from "react";
 import style from './style.module.scss'
 
 
-
 const ContactPage = () => {
     return(
         <>
@@ -15,6 +14,7 @@ const ContactPage = () => {
             <div className={style.icon}>
                   <i className="fa-solid fa-location-dot"></i>
                             </div>
+                            <button><a href="http://127.0.0.1:5500/src/jackr-enterprises-site/index.html">JAC enterprises Link</a></button>
                             <div className={style.text}>
                                 <h2>Address</h2>
                                 <h3>2645 N High St, Columbus,OH,43202</h3>
