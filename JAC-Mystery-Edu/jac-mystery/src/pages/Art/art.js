@@ -48,9 +48,10 @@ const ArtPage = () => {
                 <button className={style.artBtn} onClick={refreshPage }>New Mystery Art</button>
              
                 <h2 className={style.artTitle}>Title: {art.title}</h2>
+                <h2 className={style.artArtist}>Artist: {art.artistDisplayName}</h2>
                 <img className={style.image} src={art.primaryImageSmall} alt='art' />
                
-                <h2 className={style.artArtist}>Artist: {art.artistDisplayName}</h2>
+                
             </div>
     );
 }
