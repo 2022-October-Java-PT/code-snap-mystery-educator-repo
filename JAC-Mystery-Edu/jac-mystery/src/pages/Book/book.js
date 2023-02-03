@@ -11,7 +11,7 @@ const BookPage = () => {
 
   const fetchRandomBook = async () => {
     const res = await fetch(
-      `https://www.googleapis.com/books/v1/volumes?q=subject:art+random:true`
+      `https://www.googleapis.com/books/v1/volumes?q=subject:drawing+random:true`
     );
     const data = await res.json();
     const randomBook = data.items[Math.floor(Math.random() * data.items.length)];
@@ -36,13 +36,7 @@ const BookPage = () => {
       <button onClick={fetchRandomBook}>Next Book</button>
       </div>
       <div className={style.row2}>
-<<<<<<< HEAD
-            <h1 class={style.titleHeader}> A room without book is like a body without a soul.</h1>
-            <img className={style.img} src={KidImg} alt="kids-image" />
-=======
-            <h1> A room without book is like<br/> a body without a soul.</h1>
-            <img className={style.imgKids} src={KidImg} alt="kids-image" />
->>>>>>> 657f8112aa14da749953e3b0fa5c4c669e7379a0
+      <img className={style.imgKids} src={KidImg} alt="kids-image" />
 
         </div>
     </div>
