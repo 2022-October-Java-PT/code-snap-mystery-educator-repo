@@ -2,6 +2,7 @@ import React from "react";
 import dagImg from '../../assets/DougHolt.jpg';
 import nuhaminImg from '../../assets/nuhamin.jpg'
 import kadeenImg from '../../assets/IMG_1459.jpg' 
+import harunImg from '../../assets/harun.jpg'
 import style from './style.module.scss'
 
 const AboutPage = () => {
@@ -9,7 +10,7 @@ const AboutPage = () => {
     return(
         <>
         <div className={style.about}>
-        <h1 className={style.about}>About Us Page </h1>
+        <h1 className={style.about}>About Us </h1>
         <p className={style.about}>We Are Team Code Snap.</p>
         </div>
         <h2 className={style.team}> Our Team</h2>
@@ -39,7 +40,7 @@ const AboutPage = () => {
         </div>
 
           <div  className={ style.nuhamit}>
-            <img className={style.img} src={nuhaminImg} alt="nuhamin image"/>
+            <img className={style.imgHarun} src={harunImg} alt="harun image"/>
             <h2 className={style.text}>Harun Farah</h2>
         <p className={style.text}>We can code it student</p>
         <p className={style.text}> harunfarah@gmail.com</p>

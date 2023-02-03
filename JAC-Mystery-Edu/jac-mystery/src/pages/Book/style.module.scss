@@ -1,8 +1,10 @@
-html{
-    font-size: 75.5%;
+
+body {
+    background-color: (--primary-color);
+    
 }
 
-.header{
+.bookHeader{
     
     
     color:black;
@@ -12,8 +14,13 @@ html{
     position: relative;
 }
 
-
-.img{
+// .row2{
+//     position: absolute;
+//     top:10px;
+//     right: 150px;
+//     text-align: center;
+// }
+.imgKids{
     padding-left: 350px;
     margin-top: 50px;
 }
