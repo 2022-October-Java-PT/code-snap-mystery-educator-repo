@@ -28,14 +28,28 @@ html{
     position: relative;
 }
 
-// .row2{
-//     position: absolute;
-//     top:10px;
-//     right: 150px;
-//     text-align: center;
-// }
+
 .img{
     padding-left: 350px;
+    margin-top: 50px;
+}
+
+.bookDes{
+    background-color: white;
+    opacity: .8;
+    border: solid;
+    border-radius: 10px;
+
+}
+
+.titleHeader{
+    background-color: darksalmon;
+    margin: 100px;
+    text-align: center;
+    opacity: .8;
+    border: solid;
+    border-radius: 10px;
+
 }
 
 // .row2 h2{
